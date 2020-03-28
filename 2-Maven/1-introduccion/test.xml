@@ -1,0 +1,14 @@
+<project>
+    <target name="delete_everything" description="clean up">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile_code" depends="init" description="compile the source">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build"/>
+    </target>
+    <target name="wrap">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/HelloWorld.jar" basedir="build/classes" />
+    </target>
+</project>
