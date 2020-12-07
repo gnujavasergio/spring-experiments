@@ -42,7 +42,7 @@
 - Spring Boot una caja negra se puede desarrollar rapidamente.
 
 ## Projecto sin Spring
-![ejemplo1](../projects/ejemplo1)
+[ejemplo1](../projects/ejemplo1)
 
 ## Spring Configuration usando Java
 - No hay archivo xml para el contexto de la aplicacion.
@@ -50,4 +50,4 @@
     - Los desarrolladores bromeaban diciendo que se tiene que se Desarrollador XML en lugar de ser un desarrollador Java.
 - Versiones superiores se añadio los namespace que ayudo algo y aun asi se requeria que sea mas simple el desarrollo
 - Por este motivo ahora se añadio la configuracion solo con puro java.
-![ejemplo2](../projects/ejemplo2)
+[ejemplo2](../projects/ejemplo2)

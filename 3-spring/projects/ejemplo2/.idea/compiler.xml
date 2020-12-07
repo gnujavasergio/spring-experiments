@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="conference-java" />
+        <module name="ejemplo2" />
       </profile>
     </annotationProcessing>
   </component>
