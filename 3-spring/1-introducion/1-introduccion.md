@@ -1,10 +1,10 @@
-# Sring 
+# Spring 
 ## Que es Spring
 - Es una inversion de contenedor de control esta tecnica que es conocida como Inyeccion por dependencia.
-- Fue creado para remplazar los EJB(Enterprise JavaBeans) configuraciones muy complejas
+- Fue creado para reemplazar los EJB(Enterprise JavaBeans) configuraciones muy complejas
 - Para simplificar las configuraciones complejas que se realizan en JEE.
 - Basado en POJO con esto spring hace que todo sea simple
-- Discreto que te debe hacer mas facil todo y no complicarte la vida si te esta complicando es que lo estas utilizando mal.
+- Discreto que te debe hacer más fácil todo y no complicarte la vida si te esta complicando es que lo estas utilizando mal.
 - AOP/Proxies con esto te facilita el utilizar transacciones con todo esto el codigo es mas simple.
 - Mejores practicas y sin darnos cuenta implementamos varios patrones de diseño
     - Singleton
