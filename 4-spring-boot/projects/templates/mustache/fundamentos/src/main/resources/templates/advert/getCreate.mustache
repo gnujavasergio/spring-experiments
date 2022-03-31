@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anuncios</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container-md">
+    <form method="get" action="/adverts/save">
+        <div class="card">
+            <div class="card-header">
+                Nuevo Anuncio por Get
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" name="name" class="form-control"/>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Asunto</label>
+                    <input type="text" name="subject" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Comentario</label>
+                    <textarea class="form-control" name="comment"></textarea>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">
+                    Guardar
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script src="/webjars/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
