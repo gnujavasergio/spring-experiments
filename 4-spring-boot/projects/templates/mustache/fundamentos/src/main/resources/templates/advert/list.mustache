@@ -14,8 +14,8 @@
         <div class="card-header">
             Anuncios
             <div class="float-md-end">
-                <a class="btn btn-primary" href="/adverts/create/get">Nuevo por get</a>
-                <a class="btn btn-primary" href="/adverts/create/post">Nuevo por post</a>
+                <a class="btn btn-primary" href="/adverts/create/get">Nuevo por GET</a>
+                <a class="btn btn-primary" href="/adverts/create/post">Nuevo por POST</a>
             </div>
         </div>
         <div class="card-body">
@@ -26,15 +26,19 @@
                     <th scope="col">Nombre</th>
                     <th scope="col">Asunto</th>
                     <th scope="col">Comentario</th>
+                    <th scope="col"></th>
                 </tr>
                 </thead>
                 <tbody>
                 {{#adverts}}
                     <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">{{id}}</th>
                         <td>{{ name}}</td>
                         <td>{{ subject }}</td>
                         <td>{{ comment }}</td>
+                        <td>
+                            <a href="/adverts/edit/{{id}}">Editar</a>
+                        </td>
                     </tr>
                 {{/adverts}}
                 </tbody>

@@ -64,4 +64,11 @@ public class CourseServiceImpl implements CourseService {
 - IntelliJ IDEA Ultime PRO tiene incluido el Spring Initializr para poder crear projectos
 
 ### Spring Boot CLI
+- https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing.cli
+- Manual de Spring CLI - https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html
 - Instalar SDKMan
+- 
+```
+sdk ls springboot
+sdk install springboot
+```
