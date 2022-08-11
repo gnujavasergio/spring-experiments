@@ -11,7 +11,6 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class SessionResource {
 
-
     @Autowired
     private SessionService sessionService;
 
